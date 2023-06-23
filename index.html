@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<link rel="stylesheet" href="form.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    
+</head>
+<body>
+	<!-- <p id="demo"></p> -->
+
+    <div class="main">  	
+		<input type="checkbox" id="chk" aria-hidden="true">
+
+			<div class="signup">
+				
+					<label for="chk" aria-hidden="true">Sign up</label>
+					<input type="text" name="txt" placeholder="User name"  id="username">
+					<input type="email" name="email" placeholder="Email"  id="email">
+					<input type="password" name="pswd" placeholder="Password"  id="password">
+					<button id="button" onclick="help()">Sign up</button>
+			</div>
+
+			<div class="login">
+				<form id="form1">
+					<label for="chk" aria-hidden="true">Login</label>
+					<input type="email" name="email" placeholder="Email"  id="email2">
+					<input type="password" name="pswd" placeholder="Password"  id="password2">
+					<button onclick="displayInfo()">Login</button>
+					<p id="demo"></p>
+				</form>
+			</div>
+	</div>
+    <script src="form.js"></script>
+</body>
+</html>
